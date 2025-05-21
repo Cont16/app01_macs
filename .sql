@@ -6,7 +6,7 @@ CREATE TABLE categorias (
 CREATE TABLE prioridades (
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(30) NOT NULL UNIQUE,
-    valor INT NOT NULL -- Para establecer un orden (1: Alta, 2: Media, 3: Baja)
+    valor INT NOT NULL
 );
 
 CREATE TABLE productos (

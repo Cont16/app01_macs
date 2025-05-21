@@ -1,6 +1,6 @@
 <div class="row mb-3">
   <div class="col text-center">
-    <h1>Clase NO.1</h1>
+    <h1>App01_MACS</h1>
   </div>
 </div>
 <div class="row justify-content-center">
