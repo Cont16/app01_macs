@@ -4,8 +4,8 @@
             <div class="card shadow-lg border-0 rounded-4">
                 <div class="card-body bg-gradient" style="background: linear-gradient(90deg, #f8fafc 60%, #e3f2fd 100%);">
                     <div class="mb-4 text-center">
-                        <h5 class="fw-bold text-secondary mb-2">¡Bienvenido a la Aplicación para el registro, modificación y eliminación de usuario!</h5>
-                        <h3 class="fw-bold text-primary mb-0">MANIPULACIÓN DE USUARIOS</h3>
+                        <h5 class="fw-bold text-secondary mb-2">¡Bienvenido a la Aplicación para la gestión de compras de forma organizadas</h5>
+                        <h3 class="fw-bold text-primary mb-0">REGISTRO DE COMPRAS</h3>
                     </div>
                     <form id="FormUsuarios" class="p-4 bg-white rounded-3 shadow-sm border">
                         <input type="hidden" id="usuario_id" name="usuario_id">
@@ -67,7 +67,6 @@
                     <h3 class="text-center text-primary mb-4">Usuarios registrados en la base de datos</h3>
                     <div class="table-responsive">
                         <table class="table table-striped table-hover table-bordered align-middle rounded-3 overflow-hidden" id="TableUsuarios">
-                            <!-- Aquí se cargan los usuarios -->
                         </table>
                     </div>
                 </div>
@@ -75,6 +74,5 @@
         </div>
     </div>
 </div>
-<!-- Bootstrap Icons CDN (opcional, para los íconos de los botones) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-<script src="<?= asset('build/js/usuarios/index.js') ?>"></script>
+<script src="<?= asset('build/js/productos/index.js') ?>"></script>
