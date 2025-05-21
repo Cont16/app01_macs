@@ -4,6 +4,7 @@ namespace Model;
 
 class Categorias extends ActiveRecord {
 
+    protected static $errores = [];
     public static $tabla = 'categorias';
     public static $columnasDB = [
         'nombre'

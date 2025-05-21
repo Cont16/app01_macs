@@ -4,6 +4,7 @@ namespace Model;
 
 class Productos extends ActiveRecord {
 
+    protected static $errores = [];
     public static $tabla = 'productos';
     public static $columnasDB = [
         'nombre',

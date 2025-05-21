@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -24,18 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/app01_macs/productos">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+                        <a class="nav-link" href="/app01_macs/productos">Lista de Compras</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Más</a>
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
-                            <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                            <li><a class="dropdown-item" href="/app01_macs/productos?categoria=1">Alimentos</a></li>
+                            <li><a class="dropdown-item" href="/app01_macs/productos?categoria=2">Higiene</a></li>
+                            <li><a class="dropdown-item" href="/app01_macs/productos?categoria=3">Hogar</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                            <li><a class="dropdown-item" href="/app01_macs/productos?comprados=1">Ver Comprados</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -62,6 +60,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>

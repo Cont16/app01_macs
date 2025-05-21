@@ -4,6 +4,8 @@ namespace Model;
 
 class Prioridades extends ActiveRecord {
 
+    protected static $errores = [];
+
     public static $tabla = 'prioridades';
     public static $columnasDB = [
         'nombre',
